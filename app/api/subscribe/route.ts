@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 // In a real application, you would want to store this in a database
-let subscribers: string[] = [];
+const subscribers: string[] = [];
 
 export async function POST(request: Request) {
   try {
