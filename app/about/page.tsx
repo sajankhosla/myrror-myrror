@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -42,19 +43,82 @@ export default function About() {
           >
             <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold text-purple-600 mb-6">
-                Young Minds, Big Dreams
+                Meet Our Young Innovators
               </h2>
-              <p className="text-gray-600 mb-6">
-                MyrrorMyrror was created by two young innovators - a 12-year-old and a 9-year-old - who saw the potential of AI to make a positive impact in people&apos;s lives. They envisioned an app that could help people feel more confident, powerful, and optimistic about themselves.
-              </p>
-              <p className="text-gray-600 mb-6">
-                Inspired by their own experiences and understanding the importance of positive self-talk, these young developers wanted to create a tool that could help people of all ages build confidence through daily affirmations. They believed that by combining the power of AI with personal affirmations, they could create something truly special.
-              </p>
+              
+              <div className="mb-12">
+                <div className="flex flex-col md:flex-row gap-8 items-start">
+                  <div className="w-full md:w-1/3 mb-6 md:mb-0">
+                    <div className="relative w-full pt-[125%] rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-transform duration-300">
+                      <Image
+                        src="/IMG_0326.jpg"
+                        alt="Khushee Khosla"
+                        fill
+                        className="object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+                        priority
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent" />
+                    </div>
+                  </div>
+                  <div className="w-full md:w-2/3">
+                    <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+                      Khushee Khosla
+                    </h3>
+                    <p className="text-gray-600 mb-4">
+                      At just 12 years old, Khushee Khosla is one of the brilliant minds behind MyrrorMyrror. With a passion for technology and a deep understanding of the importance of self-confidence, Khushee envisioned an app that could help people feel more empowered through daily affirmations.
+                    </p>
+                    <p className="text-gray-600 mb-6">
+                      Her innovative thinking and commitment to making a positive impact in people&apos;s lives were instrumental in shaping MyrrorMyrror&apos;s core features and user-friendly design. Khushee believes that everyone deserves to feel confident and powerful, regardless of their age or background.
+                    </p>
+                    <div className="bg-purple-50 rounded-xl p-6 mb-8">
+                      <blockquote className="text-lg italic text-purple-700">
+                        &ldquo;I wanted to create something that could help people build confidence and feel amazing about themselves. Technology should be used to spread positivity and make people&apos;s lives better.&rdquo;
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mb-12">
+                <div className="flex flex-col md:flex-row gap-8 items-start">
+                  <div className="w-full md:w-1/3 mb-6 md:mb-0">
+                    <div className="relative w-full pt-[125%] rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-transform duration-300">
+                      <Image
+                        src="/IMG_4928.jpg"
+                        alt="Manav Khosla"
+                        fill
+                        className="object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+                        priority
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent" />
+                    </div>
+                  </div>
+                  <div className="w-full md:w-2/3">
+                    <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+                      Manav Khosla
+                    </h3>
+                    <p className="text-gray-600 mb-4">
+                      At 9 years old, Manav Khosla brings a fresh perspective and boundless creativity to MyrrorMyrror. His natural ability to see the world through optimistic eyes helped shape the app&apos;s approach to making affirmations fun and engaging for users of all ages.
+                    </p>
+                    <p className="text-gray-600 mb-6">
+                      Manav&apos;s enthusiasm for using technology to help others feel good about themselves has been a driving force in making MyrrorMyrror accessible and enjoyable for everyone. His input was crucial in ensuring the app remains simple yet powerful.
+                    </p>
+                    <div className="bg-purple-50 rounded-xl p-6 mb-8">
+                      <blockquote className="text-lg italic text-purple-700">
+                        &ldquo;Everyone should be able to feel happy and confident. I wanted to help create something that makes people smile and believe in themselves.&rdquo;
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <h3 className="text-2xl font-semibold text-purple-600 mb-4">
                 Our Mission
               </h3>
               <p className="text-gray-600 mb-6">
-                The mission was clear: create an app that brings more positivity to the world. They wanted to build something that would:
+                Together, these young innovators set out with a clear mission: create an app that brings more positivity to the world. They wanted to build something that would:
               </p>
               <ul className="list-disc list-inside text-gray-600 mb-6 space-y-2">
                 <li>Help people feel more confident in themselves</li>
@@ -62,16 +126,17 @@ export default function About() {
                 <li>Create a safe, private space for personal growth</li>
                 <li>Use technology to spread positivity</li>
               </ul>
+              
               <h3 className="text-2xl font-semibold text-purple-600 mb-4">
                 The Journey
               </h3>
               <p className="text-gray-600 mb-6">
-                Using their understanding of AI and their passion for helping others, these young developers worked to create an app that would be both powerful and easy to use. They focused on making sure everyone&apos;s privacy was protected while still delivering a meaningful experience that could help transform lives.
+                Using their understanding of technology and their passion for helping others, these young developers worked to create an app that would be both powerful and easy to use. They focused on making sure everyone&apos;s privacy was protected while still delivering a meaningful experience that could help transform lives.
               </p>
               <div className="bg-purple-50 rounded-xl p-6 mb-6">
-                <blockquote className="text-lg italic text-purple-700">
-                  &ldquo;We wanted to create something that could help people feel as amazing as they truly are. Everyone deserves to feel confident and powerful.&rdquo;
-                </blockquote>
+                <p className="text-lg text-purple-700">
+                  MyrrorMyrror represents the innovative spirit of young minds working to make a difference. It&apos;s a testament to how age is no barrier when it comes to creating meaningful technology that can positively impact people&apos;s lives.
+                </p>
               </div>
             </div>
           </motion.div>
