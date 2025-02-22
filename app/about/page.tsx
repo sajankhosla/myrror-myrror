@@ -66,7 +66,7 @@ export default function About() {
                 The Journey
               </h3>
               <p className="text-gray-600 mb-6">
-                Using their understanding of AI and their passion for helping others, these young developers worked to create an app that would be both powerful and easy to use. They focused on making sure everyone's privacy was protected while still delivering a meaningful experience that could help transform lives.
+                Using their understanding of AI and their passion for helping others, these young developers worked to create an app that would be both powerful and easy to use. They focused on making sure everyone&apos;s privacy was protected while still delivering a meaningful experience that could help transform lives.
               </p>
               <div className="bg-purple-50 rounded-xl p-6 mb-6">
                 <blockquote className="text-lg italic text-purple-700">
