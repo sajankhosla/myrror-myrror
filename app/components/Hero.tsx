@@ -13,7 +13,7 @@ export default function Hero() {
         className="absolute inset-0 z-0"
       >
         <div className="absolute inset-0 bg-gradient-to-br from-yellow-300 via-cyan-400 to-purple-600 opacity-90 z-10" />
-        <div className="absolute inset-0 bg-[url('/colorful-bg.jpg')] bg-cover bg-center mix-blend-overlay" />
+        <div className="absolute inset-0 bg-[url('/background_1.jpg')] bg-cover bg-center mix-blend-overlay" />
       </motion.div>
 
       {/* Content */}

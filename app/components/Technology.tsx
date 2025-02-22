@@ -81,7 +81,7 @@ export default function Technology() {
           className="relative h-[400px] md:h-[600px] rounded-xl overflow-hidden bg-purple-800"
         >
           <div className="absolute inset-0 bg-gradient-to-t from-purple-900 via-transparent to-transparent z-10" />
-          <div className="absolute inset-0 bg-[url('/app-benefits.jpg')] bg-cover bg-center opacity-50" />
+          <div className="absolute inset-0 bg-[url('/ship-tech.jpg')] bg-cover bg-center opacity-50" />
           
           {/* Benefits Highlights */}
           <div className="absolute inset-0 z-20 flex items-center justify-center">
