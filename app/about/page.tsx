@@ -45,7 +45,7 @@ export default function About() {
                 Young Minds, Big Dreams
               </h2>
               <p className="text-gray-600 mb-6">
-                MyrrorMyrror was created by two young innovators - a 12-year-old and a 9-year-old - who saw the potential of AI to make a positive impact in people's lives. They envisioned an app that could help people feel more confident, powerful, and optimistic about themselves.
+                MyrrorMyrror was created by two young innovators - a 12-year-old and a 9-year-old - who saw the potential of AI to make a positive impact in people&apos;s lives. They envisioned an app that could help people feel more confident, powerful, and optimistic about themselves.
               </p>
               <p className="text-gray-600 mb-6">
                 Inspired by their own experiences and understanding the importance of positive self-talk, these young developers wanted to create a tool that could help people of all ages build confidence through daily affirmations. They believed that by combining the power of AI with personal affirmations, they could create something truly special.
@@ -70,7 +70,7 @@ export default function About() {
               </p>
               <div className="bg-purple-50 rounded-xl p-6 mb-6">
                 <blockquote className="text-lg italic text-purple-700">
-                  "We wanted to create something that could help people feel as amazing as they truly are. Everyone deserves to feel confident and powerful."
+                  &ldquo;We wanted to create something that could help people feel as amazing as they truly are. Everyone deserves to feel confident and powerful.&rdquo;
                 </blockquote>
               </div>
             </div>
